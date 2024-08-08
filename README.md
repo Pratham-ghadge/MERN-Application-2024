@@ -1,43 +1,64 @@
-<h1>MERN Stack Application with MongoDB Atlas and Tailwind CSS </h1><br>
-This is a simple full-stack MERN application with separate client (frontend) and server (backend) folders.<br>
-The project demonstrates basic functionalities such as user authentication, protected routes <br>
-for admins, and a minimalistic UI designed with Tailwind CSS.<br>
 
-<h2><b></b>Project Structure</b></h2>
+# MERN Stack Application with MongoDB Atlas and Tailwind CSS
+
+This is a simple full-stack MERN application with separate client (frontend) and server (backend) folders.
+The project demonstrates basic functionalities such as user authentication, protected routes 
+for admins, and a minimalistic UI designed with Tailwind CSS.
+
+# Project Structure 
 The project is divided into two folders:
 
-client: Frontend code for the application, built using React and Tailwind CSS.<br>
-server: Backend code for the application, built using Node.js, Express, and MongoDB.<br>
+client: Frontend code for the application, built using React and Tailwind CSS.
 
-<h2>Technologies Used</h2>
-* MongoDB Atlas for database management<br>
-* Express.js for backend routing<br>
-* React.js for frontend development<br>
-* Tailwind CSS for styling<br>
-* Node.js for backend development<br>
+server: Backend code for the application, built using Node.js, Express, and MongoDB.
 
-<h2>Installation</h2>
-To run this project locally, follow these steps:<br>
-1.Clone the repository:<br>
-  &nbsp;  &nbsp;  - git clone https://github.com/Pratham-ghadge/MERN-Application-2024.git<br>
-2.Navigate to the project directory:<br>
-  &nbsp;   -cd MERN-Application-2024<br>
-3.Install dependencies:<br>
- &nbsp;    1.Install server dependencies:<br>
-   &nbsp;  &nbsp; - cd server<br>
-    &nbsp;  &nbsp;-  npm install<br>
- &nbsp;   2.Install client dependencies:<br>
-   &nbsp;  &nbsp;  - cd ../client<br>
-   &nbsp;  &nbsp;  - npm install<br>
-4.Set up environment variables:<br>
-   &nbsp;  In the server folder, create a .env file and add your MongoDB Atlas URI and other necessary environment variables.<br>
-5.Run the application:<br>
- &nbsp;   1.Start the backend server:<br>
-   &nbsp;  &nbsp;  - cd server<br>
-   &nbsp;  &nbsp; - npm run start<br>
-  &nbsp;  2.Start the frontend:<br>
-  &nbsp;  &nbsp;  -  cd ../client<br>
-   &nbsp;  &nbsp;  - npm run dev <br>
+# Technologies Used
+* MongoDB Atlas for database management
+* Express.js for backend routing
+* React.js for frontend development
+* Tailwind CSS for styling
+* Node.js for backend development
+
+
+
+## Installation
+
+To run this project locally, follow these steps:
+- Clone the repository:
+```bash
+   git clone https://github.com/Pratham-ghadge/MERN-Application-2024.git
+```
+ - Navigate to the project directory:   
+ ```bash
+ cd MERN-Application-2024
+ ```
+ Install dependencies:
+ - Install server dependencies:
+ ```bash
+ cd server
+ npm install
+ ```
+ - Install client dependencies:
+ ```bash
+  cd ../client
+  npm install
+ ```
+ Set up environment variables:
+ - In the server folder, create a .env file and add your MongoDB Atlas URI and other necessary environment variables.
+
+ Run the application:
+ - Start the backend server:
+```bash
+ cd server
+ npm start
+ ```
+ - Start the frontend
+```bash
+ cd ../client
+ npm run dev 
+ ```
+ 
+
 
 <h2>Output Video</h2>
 <h3>1. HOME  </h3>

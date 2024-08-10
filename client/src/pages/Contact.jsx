@@ -41,7 +41,7 @@ const Contact = () => {
 
       try {
        
-      const response = await fetch("https://mern-application-pratham.vercel.app/api/form/contact",{
+      const response = await fetch("https://mern-application-api-xi.vercel.app/api/form/contact",{
         method:"POST",
         headers:{
           "Content-Type":"application/json",

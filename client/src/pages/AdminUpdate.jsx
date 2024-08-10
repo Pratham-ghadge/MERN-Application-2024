@@ -16,7 +16,7 @@ const AdminUpdate = () => {
 
   const getUser = async () => {
     try {
-      const response = await fetch(`https://mern-application-2024-apii.vercel.app/api/admin/users/${id}`, {
+      const response = await fetch(`https://mern-application-api-xi.vercel.app/api/admin/users/${id}`, {
         method: "GET",
         headers: {
           Authorization: Authorizationtoken,
@@ -59,7 +59,7 @@ const AdminUpdate = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch(`https://mern-application-2024-apii.vercel.app/api/admin/users/update/${id}`, {
+      const response = await fetch(`https://mern-application-api-xi.vercel.app/api/admin/users/update/${id}`, {
         method: "PATCH",
         headers: {
           Authorization: Authorizationtoken,

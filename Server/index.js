@@ -11,7 +11,7 @@ import cors from 'cors';
 
 
 var corsOptions = {
-    origin: 'http://localhost:5173',
+    origin: 'https://mern-application-pratham.vercel.app',
     methods:"POST, GET , PUT ,PATCH,DELETE",
     credentials: true 
   }

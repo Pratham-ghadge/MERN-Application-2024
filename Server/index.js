@@ -27,7 +27,6 @@ app.use("/api/data",servicerouter);
 app.use("/api/admin",adminrouter);
 
 
-
 app.use(errormiddlewares);
 const PORT = process.env.PORT;
 const URL = process.env.MONGOURL;

@@ -8,7 +8,7 @@ const AdminContacts = () => {
 
   const getAllContacts = async () => {
     try {
-      const response = await fetch("https://mern-application-2024-apii.vercel.app/api/admin/contacts", {
+      const response = await fetch("https://mern-application-api-xi.vercel.app/api/admin/contacts", {
         method: "GET",
         headers: {
           Authorization: Authorizationtoken,
@@ -25,7 +25,7 @@ const AdminContacts = () => {
 
   const deleteContact = async (id) => {
     try {
-      const response = await fetch(`https://mern-application-2024-apii.vercel.app/api/admin/contacts/delete/${id}`, {
+      const response = await fetch(`https://mern-application-api-xi.vercel.app/api/admin/contacts/delete/${id}`, {
         method: "DELETE",
         headers: {
           Authorization: Authorizationtoken,

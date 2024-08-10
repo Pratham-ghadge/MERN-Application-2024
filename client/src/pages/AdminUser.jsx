@@ -8,7 +8,7 @@ const AdminUser = () => {
 
   const getAllUsers = async () => {
     try {
-      const response = await fetch("https://mern-application-pratham.vercel.app/api/admin/users", {
+      const response = await fetch("https://mern-application-api-xi.vercel.app/api/admin/users", {
         method: "GET",
         headers: {
           Authorization: Authorizationtoken,
@@ -25,7 +25,7 @@ const AdminUser = () => {
 
   const deleteUser = async (id) => {
     try {
-      const response = await fetch(`https://mern-application-pratham.vercel.app/api/admin/users/delete/${id}`, {
+      const response = await fetch(`https://mern-application-api-xi.vercel.app/api/admin/users/delete/${id}`, {
         method: "DELETE",
         headers: {
           Authorization: Authorizationtoken,

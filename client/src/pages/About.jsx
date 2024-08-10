@@ -4,11 +4,9 @@ import { motion } from 'framer-motion';
 import service from "../assets/service-image-3.jpg"
 import { useAuth } from '../store/Auth';
 const About = () => {
-  const { user,isLoading } = useAuth();
+  const { user } = useAuth();
  
-  if (isLoading) {
-    return <><h1>Loading...</h1></>;
-  }
+ 
 
 
   return (

@@ -27,7 +27,7 @@ export const AuthContext = createContext ();
         try {
             setISLoading(true);
 
-            const response = await fetch("http://localhost:5000/api/auth/user",{
+            const response = await fetch("https://mern-application-2024-apii.vercel.app/api/auth/user",{
                 method:"GET",
                 headers:{
                     Authorization: Authorizationtoken,
@@ -52,7 +52,7 @@ export const AuthContext = createContext ();
   const getServices = async ()=>{
 
 try {
-    const response = await fetch("http://localhost:5000/api/data/service",{
+    const response = await fetch("https://mern-application-2024-apii.vercel.app/api/data/service",{
         method:"GET",  
     });
 
